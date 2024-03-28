@@ -42,7 +42,7 @@ jobs:
       - name: Validate kubernetes manifests
         uses: alexellis/arkade-get@master
         with:
-          kubectl: 1.29.2
+          kubectl: 1.28.8
           kubeconform: v0.6.4
           command: |
             kubeconform -strict -summary k8s
