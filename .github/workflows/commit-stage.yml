@@ -43,7 +43,7 @@ jobs:
         uses: alexellis/arkade-get@master
         with:
           kubectl: 1.29.2
-          kubeconform: 0.6.4
+          kubeconform: v0.6.4
           command: |
             kubeconform -strict -summary k8s
   package:
